@@ -1,0 +1,137 @@
+1.	Menambahkan column baru pada lookup 
+1.	Masuk menu Setting > Advance Settings
+ 
+
+2.	Pilih dan buka object configuration yang akan kita tambahkan column pada lookup (Contoh : Sub Category) 
+ 
+
+3.	Klik button + pada Column lalu pilih Lookup
+ 
+ 
+4.	Isi pada bagian code, title dan lookup (source data) 
+ 
+
+5.	Jika sudah klik Publish dan Save
+
+2.	Membuat default value field pada section
+a.	Static Default Value
+1.	Masuk menu Setting > Advance Settings
+ 
+
+2.	Pilih dan buka object configuration yang akan kita set default value (Contoh : Request) 
+ 
+3.	Kemudian pilih column yang akan kit set default value ny (Contoh : Status), lalu klik icon edit pada bagian Default Value
+ 
+
+4.	Lalu pilih constant dan tentukan default value nya, kemudian klik ok
+ 
+
+5.	Jika sudah selesai klik Publish and Compile, kemudian klik Save
+
+b.	Dinamic Default Value
+1.	Masuk menu Setting > Advance Settings
+ 
+ 
+2.	Pilih dan buka object configuration yang akan kita set default value (Contoh : Request) 
+ 
+
+3.	Kemudian pilih column yang akan kit set default value ny (Contoh : Applicant), lalu klik icon edit pada bagian Default Value
+ 
+
+4.	Lalu pilih System Variable dan pada default value pilih Current User Contact, kemudian klik Ok
+ 
+
+5.	Jika sudah selesai klik Publish and Compile, kemudian klik Save
+ 
+4.	Membuat Business Rule Filter by Employee
+1.	Buka salah satu data pada section Request, lalu klik View dan Open page designer
+ 
+
+2.	Kemudian klik tab menu Business Rule dan klik Add New Business Rule
+ 
+
+3.	Lalu tambahkan business rule seperti gambar di bawah 
+ 
+
+4.	Jika sudah selesai klik apply, kemudian klik section wizard > save
+ 
+5.	Membuat Business Rule Pada Sub Category
+1.	Buka salah satu data pada section Request, lalu klik View dan Open page designer
+ 
+
+2.	Kemudian klik tab menu Business Rule dan klik Add New Business Rule
+ 
+
+3.	Lalu tambahkan business rule seperti gambar di bawah
+  
+
+4.	Jika sudah selesai klik apply, kemudian klik section wizard > save
+ 
+6.	Membuat Tab Baru Pada Contact
+1.	Buka salah satu data contact, lalu klik View dan klik Open Page Designer
+ 
+
+2.	Klik button + di sini untuk menambahkan tab baru
+ 
+
+3.	Isi title pada tab baru tersebut (Contoh : History)
+ 
+
+4.	Klik Add New Detail
+5.	Lalu klik button + seperti gambar di bawah
+ 
+
+6.	Kemudian pada bagian object pilih request, kemudian klik Save
+ 
+
+7.	Lalu pada bagian Where Detail Column pilih Applicant dan pada bagian Equals to Page Column pilih Id
+ 
+
+8.	Jika sudah selesai klik Save > Section Wizard > Save
+ 
+7.	Membuat Tab Baru Pada Request
+1.	Buka salah satu data Request, lalu klik View dan klik Open Section Wizard
+ 
+
+2.	Klik button + seperti gambar di bawah
+ 
+
+3.	Masukan title tab baru tersebut kamudian klik Save
+ 
+
+4.	Kemudian klik New Detail seperti gambar di bawah untuk menambahkan object pada tab baru tersebut
+ 
+
+5.	Kemudian klik button + dan klik Add using new object seperti gambar di bawah
+ 
+
+6.	Lalu isi pada bagian Object Title, Detail Title dan Code seperti gambar di bawah, kemudian checklist pada bagian Make the list editable
+ 
+
+8.	Jika sudah selesai klik Section Wizard > Save
+9.	Kemudian buka salah satu data Request, lalu refresh page
+10.	Untuk mengatur detail dari tab baru tersebut klik icon option seperti gambar d bawah ini kemudian klik Detail Setup
+ 
+
+11.	Tambahkan colum seperti gambar di bawah 
+ 
+
+12.	Jika sudah kemudian klik Save
+13.	Selanjutnya untuk menampilkan column yang sudah kita tambahkan pada detail setup tersebut kita buka salah satu data Request kemudian pada tab menu Expenses klik icon option  lalu pilih column setup
+ 
+ 
+14.	Kemudian ubah list setup menjadi seperti gambar di bawah ini
+ 
+
+15.	Jika sudah selesai lalu klik Save
+
+6.	Membuat List Setup Section
+1.	Buka salah satu section yang akan diubah list setupnya, lalu klik View kemudian pilih Select fields to display
+ 
+
+2.	Lalu pada halaman list setup tampil pilihan list view dan tile view, klik button + untuk menambahkan list pada section tersebut
+ 
+3.	Jika sudah selesai klik Save for All Users
+ 
+
+4.	

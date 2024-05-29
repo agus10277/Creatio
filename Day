@@ -1,0 +1,168 @@
+1.	Membuat List Setup Account
+    1.	Masuk ke section Request, lalu klik View dan klik Select fields to display
+ 
+
+    2.	Klik tanda + seperti gambar di bawah untuk menambahkan list baru
+ 
+
+    3.	Klik tanda + untuk menambahkan related object
+ 
+ 
+    4.	Kemudian pada bagian object pertama diisi Applicant dan object kedua diisi Account, lalu klik Select
+ 
+
+    5.	Isi Title sesuai dengan kebutuhan kita, kemudian klik Save
+ 
+
+    6.	Jika sudah klik Save for All User
+
+2.	Membuat List Setup Number of Expenses
+    1.	Masuk ke section Request, lalu klik View dan klik Select fields to display
+ 
+ 
+    2.	Klik tanda + seperti gambar di bawah untuk menambahkan list baru
+ 
+
+    3.	Klik tanda + untuk menambahkan related object
+ 
+
+    4.	Kemudian pada bagian object pertama diisi Request expenses (by column Request) dan object kedua diisi Quantity, lalu klik Select
+ 
+ 
+    5.	Isi Title sesuai dengan kebutuhan kita, kemudian klik Save
+ 
+
+    6.	Jika sudah klik Save for All User
+
+3.	Membuat List Setup Request Expense Total Amount
+    1.	Masuk ke section Request, lalu klik View dan klik Select fields to display
+ 
+
+    2.	Klik tanda + seperti gambar di bawah untuk menambahkan list baru
+ 
+ 
+    3.	Klik tanda + untuk menambahkan related object
+ 
+
+    4.	Kemudian pada bagian object pertama diisi Request expenses (by column Request) dan object kedua diisi Amount, lalu klik Select
+ 
+
+    5.	Isi Title sesuai dengan kebutuhan kita, lalu pada bagian Function pilih Amount kemudian klik Save
+ 
+
+    6.	Jika sudah klik Save for All User
+ 
+4.	Membuat List Setup Average Expense Amount for Expense Budget
+    1.	Masuk ke section Request, lalu klik View dan klik Select fields to display
+ 
+
+    2.	Klik tanda + seperti gambar di bawah untuk menambahkan list baru
+ 
+
+    3.	Klik tanda + untuk menambahkan related object
+ 
+
+    4.	Kemudian pada bagian object pertama diisi Request expenses (by column Request) dan object kedua diisi Amount, lalu klik Select
+ 
+
+    5.	Isi Title sesuai dengan kebutuhan kita, lalu pada bagian Function pilih Average dan pada bagian filter set Type = Budget, kemudian klik Save
+ 
+
+    6.	Jika sudah klik Save for All User
+
+5.	Membuat List Setup Planned Expenses Total Amount
+    1.	Masuk ke section Request, lalu klik View dan klik Select fields to display
+ 
+
+    2.	Klik tanda + seperti gambar di bawah untuk menambahkan list baru
+ 
+
+    3.	Klik tanda + untuk menambahkan related object
+ 
+
+    4.	Kemudian pada bagian object pertama diisi Request expenses (by column Request) dan object kedua diisi Amount, lalu klik Select
+ 
+
+    5.	Isi Title sesuai dengan kebutuhan kita, lalu pada bagian Function pilih Average dan pada bagian filter set Type = Planned, kemudian klik Save
+ 
+
+    6.	Jika sudah klik Save for All User
+
+6.	Menampilkan Display Summaries
+    1.	Buka section (Contoh : Request) yang akan ditampilkan summaries nya, kemudian klik View dan klik Set Up Summaries
+ 
+
+    2.	Kemudian checklist pada bagian Display Number of Records, lalu klik Save
+ 
+ 
+    3.	Maka akan tampil summary data record yang ada pada section tersebut
+ 
+
+7.	Melakukan Sorting Record Data
+    1.	Buka section (Contoh : Request) yang akan dilakukan sorting record data, kemudian klik View dan klik Sort By
+ 
+
+    2.	Selanjutnya akan tampil berbagai macam jenis sorting data, kitab bisa tentukan sorting data berdasarkan number, status, category dan lain sebagainya.
+ 
+8.	Melakukan Filter Record Data
+    1.	Buka section (Contoh : Request) yang akan dilakukan filter record data, kemudian klik Filter/Folder
+ 
+
+    2.	Selanjutnya akan tampil berbagai macam jenis filter, kemudian kitab isa memasukan filter value ke dalam filter box
+ 
+
+    3.	Sebagai contoh kita memasukan filter bedasarkan Category = Employee Service, maka data yang akan tampil adalah data dengan category tersebut
+ 
+9.	Membuat Folder Record Data
+    1.	Buka section (Contoh : Request) yang akan dilakukan folder, kemudian klik Filter/Folder, lalu klik Show Folder
+ 
+
+    2.	Kemudian klik New folder untuk membuat folder baru
+ 
+
+    3.	Lalu isikan nama folder seperti gambar berikut, kemudian klik OK
+ 
+
+    4.	Selanjutnya klik Add Condition 
+ 
+
+    5.	Lalu masukan condition sesuai dengan kebutuhan kita, sebagai contoh condition menggunakan Request Expenses by Amount seperti berikut, lalu klik select
+ 
+
+    6.	Lalu masukan value pada column berikut
+ 
+
+    7.	Jika sudah selesai klik Apply dan Save
+ 
+10.	Membuat Dashboard
+    a.	Dashboard Metric
+        1.	Buka salah satu section yang akan dibuatkan dashboard (Contoh : Request), lalu klik icon dashboard, kemudian klik icon setting dan klik New untuk membuat dashboard 
+ 
+
+        2.	Lalu isikan Title dashboard dan tentukan type dashboard dengan klik tanda + di bawah, sebagai contoh akan dibuat dashboard metric untuk overview
+ 
+
+        3.	Kemudian set condition untuk dashboard tersebut, sebagai contoh di bawah untuk dashboard number of open expenses, setelah itu klik Save
+         
+        
+        4.	Selanjutnya kita bisa merubah ukuran dari dashboard tersebut sesuai dengan kebutuhan kita berdasarkan pengaturan seperti gambar di bawah ini
+         
+        
+        5.	Jika sudah selesai klik Save untuk menyimpan dashboard tersebut
+
+    b.	Dashboard Gauge
+        a.	Buka salah satu section yang akan dibuatkan dashboard (Contoh : Request), lalu klik icon dashboard, kemudian klik icon setting dan klik New untuk membuat dashboard 
+         
+        
+        b.	Lalu isikan Title dashboard dan tentukan type dashboard dengan klik tanda + di bawah, sebagai contoh akan dibuat dashboard metric untuk overview 
+        
+        c.	Kemudian set condition untuk dashboard tersebut, sebagai contoh di bawah untuk dashboard number of open expenses, setelah itu klik Save
+         
+        
+        d.	Selanjutnya kita bisa merubah ukuran dari dashboard tersebut sesuai dengan kebutuhan kita berdasarkan pengaturan seperti gambar di bawah ini
+         
+        
+        e.	Jika sudah selesai klik Save untuk menyimpan dashboard tersebut
+        
+        c.	Dashboard List
+        
